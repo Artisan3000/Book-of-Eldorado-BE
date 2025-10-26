@@ -35,5 +35,5 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::get('/student/{id}/overview', [StudentOverviewController::class, 'getOverview']);
     });
 
-    
+     
 });
